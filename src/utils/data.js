@@ -148,4 +148,19 @@ export const questionAnswers = [
     question: 'Are you selling all over Canada?',
     answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
   },
+  {
+    id: 6,
+    question: 'Is your shipping free?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
+  {
+    id: 7,
+    question: 'Do you accept cash?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
+  {
+    id: 8,
+    question: 'Can we pay email transfer?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
 ]
