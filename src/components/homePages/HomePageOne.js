@@ -22,7 +22,7 @@ const HomePageOne = () => {
         <h2>
           Bharat &#38;<span> Marketing</span>
         </h2>
-        <div className='title-underline'></div>
+        <div className='title-underline header-underline'></div>
       </div>
       {/* WHOLE PAGE ONE HOLDER CONTAINER */}
       <div className='pageOne-container'>
@@ -50,6 +50,9 @@ const HomePageOne = () => {
 }
 
 const Wrapper = styled.section`
+  .header-underline {
+    margin-bottom: 1rem;
+  }
   .header {
     text-align: center;
     span {
@@ -61,8 +64,9 @@ const Wrapper = styled.section`
     max-height: 300px;
     max-width: 678px;
     margin: 0 auto;
+    border: 5px double var(--primary-5);
+    overflow: hidden;
 
-    padding: 1rem;
     .image {
       width: 100%;
       height: 300px;
@@ -86,6 +90,7 @@ const Wrapper = styled.section`
     @media (min-width: 768px) {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      gap: 1rem;
     }
   }
   .description-container {
@@ -94,6 +99,7 @@ const Wrapper = styled.section`
     box-shadow: var(--shadow-2);
     border-radius: var(--radius);
     transition: var(--transition);
+    padding: 1rem;
   }
   .description-heading {
     color: var(--primary-8);

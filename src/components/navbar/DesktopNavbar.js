@@ -28,12 +28,20 @@ const DesktopNavbar = () => {
         <div className='social-icons'>
           <ul>
             <li>
-              <a href='https://facebook.com' target='_blank' rel='noreferrer'>
+              <a
+                href='https://facebook.com/angra.laddy'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <img className='icon' src={facebook} alt='' />
               </a>
             </li>
             <li>
-              <a href='https://instagram.com' target='_blank' rel='noreferrer'>
+              <a
+                href='https://instagram.com/angra1971/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <img className='icon' src={instagram} alt='' />
               </a>
             </li>
