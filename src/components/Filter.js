@@ -108,7 +108,7 @@ const Filter = () => {
   )
 }
 const Wrapper = styled.div`
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   .search {
     text-align: center;
   }
