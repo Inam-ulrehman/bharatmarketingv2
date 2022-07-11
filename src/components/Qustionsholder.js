@@ -43,6 +43,7 @@ const Wrapper = styled.article`
     svg {
       color: var(--primary-5);
       margin-right: 1rem;
+      cursor: pointer;
     }
   }
   .hide {

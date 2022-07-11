@@ -23,7 +23,7 @@ const About = () => {
           <div className='body'>
             <h4 className='title'>Mr &#38; Mrs Bharat </h4>
             <div className='title-underline'></div>
-            <p>
+            <p className='about'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
               magni ipsam itaque quis quasi tenetur iure aperiam recusandae
               commodi praesentium officiis harum doloremque nobis laborum,
@@ -69,6 +69,12 @@ const Wrapper = styled.section`
     p {
       margin: 1rem auto;
     }
+  }
+  .about {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-2);
   }
 `
 export default About
