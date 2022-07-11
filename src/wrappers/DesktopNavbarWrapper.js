@@ -18,6 +18,7 @@ const DesktopNavbarWrapper = styled.nav`
         text-align: center;
         transition: var(--transition);
         border-radius: var(--radius);
+        color: var(--primary-8);
         :hover {
           background-color: var(--primary-5);
           color: var(--white);
@@ -35,7 +36,6 @@ const DesktopNavbarWrapper = styled.nav`
       display: flex;
       gap: 1rem;
       text-align: center;
-      transition: var(--transition);
     }
   }
   .logo-container {
