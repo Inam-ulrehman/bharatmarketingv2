@@ -42,14 +42,17 @@ const DesktopNavbarWrapper = styled.nav`
     width: 200px;
   }
   .logo {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     display: block;
     margin: 0 auto;
   }
   .active {
     background-color: var(--primary-5);
     color: var(--white);
+  }
+  .nav-container {
+    height: 60px;
   }
 `
 export default DesktopNavbarWrapper
