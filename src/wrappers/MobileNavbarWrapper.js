@@ -34,8 +34,7 @@ const MobileNavbarWrapper = styled.nav`
       li {
         align-items: center;
         padding: 2px;
-        transition: var(--transition);
-        :hover {
+        transition :hover {
           background-color: var(--primary-1);
           color: var(--white);
           padding-left: 1rem;
@@ -43,16 +42,14 @@ const MobileNavbarWrapper = styled.nav`
       }
       a {
         margin-left: 1rem;
-       
-        }
       }
-      svg {
-        font-size: 1.5rem;
-        margin-right: 1rem;
-        color: var(--primary-8);
-        .active {
-          color: var(--primary-1);
-        }
+    }
+    svg {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      color: var(--primary-8);
+      .active {
+        color: var(--primary-1);
       }
     }
   }
