@@ -1,12 +1,13 @@
 import React from 'react'
 import { toast } from 'react-toastify'
 import styled from 'styled-components'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   // handleSubmit
   const handleSubmit = (e) => {
     e.preventDefault(e)
-    toast.success('Your Request is submitted successfully')
+    toast.success('Soon a member of our team will be in touch with you.')
   }
   return (
     <Wrapper>
@@ -44,6 +45,7 @@ const Contact = () => {
           Submit your request
         </button>
       </form>
+      <Footer />
     </Wrapper>
   )
 }
