@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import clientImage from '../images/Removebackground.png'
 import { Link } from 'react-router-dom'
+import { questionAnswers } from '../utils/data'
+import Qustionsholder from '../components/Qustionsholder'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -35,6 +38,13 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className='questions'>
+        <h3 className='title'>Freq Asked Questions</h3>
+        {questionAnswers.map((item) => {
+          return <Qustionsholder key={item.id} {...item} />
+        })}
+      </div>
+      <Footer />
     </Wrapper>
   )
 }

@@ -121,3 +121,31 @@ export const homePageThree = [
       'https://res.cloudinary.com/inam6530/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1657203683/200877295_984716812229678_1136475635181130757_n_ujypjl.png',
   },
 ]
+
+export const questionAnswers = [
+  {
+    id: 1,
+    question: 'How is your product ?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
+  {
+    id: 2,
+    question: 'Do you refund this product?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
+  {
+    id: 3,
+    question: 'Is it Canadian based business?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
+  {
+    id: 4,
+    question: 'Do you help if there is something wrong?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
+  {
+    id: 5,
+    question: 'Are you selling all over Canada?',
+    answer: `I'm baby taxidermy before they sold out brooklyn XOXO kickstarter, single-origin coffee kinfolk. Copper mug sartorial cardigan, vegan shabby chic normcore cloud bread twee franzen blog +1 listicle DSA small batch`,
+  },
+]
