@@ -1,7 +1,64 @@
 import React from 'react'
+import styled from 'styled-components'
+import clientImage from '../images/Removebackground.png'
+import { Link } from 'react-router-dom'
 
 const About = () => {
-  return <div>About</div>
+  return (
+    <Wrapper>
+      <div className='header'>
+        <h3 className='title'>
+          About <span style={{ color: 'var(--primary-5)' }}>Us</span>
+        </h3>
+        <div className='title-underline'></div>
+      </div>
+      <div className='main'>
+        <div className='box-1'>
+          <div className='img'>
+            <img src={clientImage} alt='' />
+          </div>
+          <div className='body'>
+            <h4 className='title'>Mr &#38; Mrs Bharat </h4>
+            <div className='title-underline'></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+              magni ipsam itaque quis quasi tenetur iure aperiam recusandae
+              commodi praesentium officiis harum doloremque nobis laborum,
+              deleniti inventore dolores dignissimos culpa odit ullam sunt
+              impedit facere at! Quis debitis itaque incidunt rem quasi
+              consequatur nesciunt facere, obcaecati iusto. Ipsa, earum
+              expedita.
+            </p>
+            <Link to='/contact' className='btn'>
+              Reach us
+            </Link>
+          </div>
+        </div>
+      </div>
+    </Wrapper>
+  )
 }
 
+const Wrapper = styled.section`
+  @media (max-width: 768px) {
+    margin-top: 4rem;
+  }
+  .img {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 2rem auto;
+    img {
+      border-radius: var(--radius);
+      max-width: 400px;
+      max-height: 400px;
+      box-shadow: var(--shadow-2);
+    }
+  }
+  .body {
+    text-align: center;
+    p {
+      margin: 1rem auto;
+    }
+  }
+`
 export default About
