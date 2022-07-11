@@ -36,7 +36,7 @@ const Contact = () => {
           </label>
           <textarea
             className='form-textarea'
-            name='Text1'
+            name='textarea'
             cols='60'
             rows='5'
           ></textarea>
