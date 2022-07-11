@@ -37,8 +37,14 @@ const MobileNavbarWrapper = styled.nav`
         padding: 2px;
         transition: var(--transition);
         :hover {
-          background-color: var(--primary-1);
+          background-color: var(--primary-5);
           padding-left: 1rem;
+          transition: var(--transition);
+          a,
+          svg {
+            color: var(--white);
+            transition: var(--transition);
+          }
         }
       }
       a {
