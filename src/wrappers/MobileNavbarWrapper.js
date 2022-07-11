@@ -31,8 +31,20 @@ const MobileNavbarWrapper = styled.nav`
     overflow: hidden;
     .link {
       display: grid;
+      li {
+        align-items: center;
+        padding: 2px;
+        transition: var(--transition);
+        :hover {
+          background-color: var(--primary-1);
+          color: var(--white);
+          padding-left: 1rem;
+        }
+      }
       a {
         margin-left: 1rem;
+       
+        }
       }
       svg {
         font-size: 1.5rem;
