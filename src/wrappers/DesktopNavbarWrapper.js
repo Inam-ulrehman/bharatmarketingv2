@@ -16,6 +16,12 @@ const DesktopNavbarWrapper = styled.nav`
       a {
         padding: 1rem;
         text-align: center;
+        transition: var(--transition);
+        border-radius: var(--radius);
+        :hover {
+          background-color: var(--primary-5);
+          color: var(--white);
+        }
       }
     }
   }
@@ -29,6 +35,7 @@ const DesktopNavbarWrapper = styled.nav`
       display: flex;
       gap: 1rem;
       text-align: center;
+      transition: var(--transition);
     }
   }
   .logo-container {
@@ -39,6 +46,10 @@ const DesktopNavbarWrapper = styled.nav`
     height: 80px;
     display: block;
     margin: 0 auto;
+  }
+  .active {
+    background-color: var(--primary-5);
+    color: var(--white);
   }
 `
 export default DesktopNavbarWrapper
