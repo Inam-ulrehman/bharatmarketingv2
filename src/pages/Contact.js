@@ -1,11 +1,12 @@
 import React from 'react'
+import { toast } from 'react-toastify'
 import styled from 'styled-components'
 
 const Contact = () => {
   // handleSubmit
   const handleSubmit = (e) => {
     e.preventDefault(e)
-    console.log(e.target)
+    toast.success('Your Request is submitted successfully')
   }
   return (
     <Wrapper>
