@@ -14,7 +14,7 @@ const HomePageOne = () => {
         return setIndex(0)
       }
       setIndex(index + 1)
-    }, 4000)
+    }, 2500)
   })
   return (
     <Wrapper className='container-img-text'>
@@ -90,6 +90,10 @@ const Wrapper = styled.section`
   }
   .description-container {
     text-align: center;
+    background-color: var(--white);
+    box-shadow: var(--shadow-2);
+    border-radius: var(--radius);
+    transition: var(--transition);
   }
   .description-heading {
     color: var(--primary-8);

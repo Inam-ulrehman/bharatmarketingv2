@@ -6,13 +6,16 @@ import instagram from '../../images/instagram.svg'
 import linkedin from '../../images/linkedin.svg'
 import DesktopNavbarComponent from './DesktopNavbarComponent'
 import DesktopNavbarWrapper from '../../wrappers/DesktopNavbarWrapper'
+import { Link } from 'react-router-dom'
 
 const DesktopNavbar = () => {
   return (
     <DesktopNavbarWrapper>
       <div className='nav-container'>
         <div className='logo-container'>
-          <img className='logo' src={logo} alt='' />
+          <Link to='/home'>
+            <img className='logo' src={logo} alt='' />
+          </Link>
         </div>
 
         <div className='navbar'>

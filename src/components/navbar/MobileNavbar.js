@@ -4,6 +4,7 @@ import { navbarData } from '../../utils/data'
 import MobileNavbarComponent from './MobileNavbarComponent'
 import logo from '../../images/logo.png'
 import MobileNavbarWrapper from '../../wrappers/MobileNavbarWrapper'
+import { Link } from 'react-router-dom'
 
 const MobileNavbar = () => {
   const [values, setValues] = useState(false)
@@ -26,7 +27,9 @@ const MobileNavbar = () => {
     <MobileNavbarWrapper>
       <div className='container'>
         <div className='container-header'>
-          <img className='logo' src={logo} alt='' />
+          <Link to='/home'>
+            <img className='logo' src={logo} alt='' />
+          </Link>
 
           <FaList onClick={handleMenu} className='menu-icon' />
         </div>
