@@ -98,7 +98,7 @@ const SingleProduct = () => {
 }
 
 const Wrapper = styled.section`
-  margin-top: 2rem;
+  margin-top: 3rem;
 
   @media (min-width: 768px) {
     margin-top: 0;

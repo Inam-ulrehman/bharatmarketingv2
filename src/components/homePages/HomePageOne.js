@@ -50,6 +50,7 @@ const HomePageOne = () => {
 }
 
 const Wrapper = styled.section`
+  margin-top: 2rem;
   .header-underline {
     margin-bottom: 1rem;
   }
