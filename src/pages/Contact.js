@@ -16,7 +16,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     const { name, email, mobile, inquiry } = state
     e.preventDefault(e)
-    console.log(e.target.name)
+
     if (!name || !email || !mobile || !inquiry) {
       return toast.warning('Please fill in all the fields ')
     } else {
