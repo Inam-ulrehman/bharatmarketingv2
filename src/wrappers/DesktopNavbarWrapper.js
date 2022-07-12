@@ -14,7 +14,7 @@ const DesktopNavbarWrapper = styled.nav`
     ul {
       display: flex;
       a {
-        padding: 1rem;
+        padding: 1rem 0.2rem;
         text-align: center;
         transition: var(--transition);
         border-radius: var(--radius);
